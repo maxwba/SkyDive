@@ -251,8 +251,8 @@ h5 {
 
 .footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     border: solid;
     background: #182128;
@@ -285,4 +285,22 @@ h5 {
 
 .footer h5 {
     font-size: larger;
+}
+
+.footerContent {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+
+.footerContent h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer iframe {
+    width: 50%;
+    height: 350px;
+    margin-right: 40px;
 }
